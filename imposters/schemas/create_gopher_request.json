@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "age": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "ID",
+    "name",
+    "image",
+    "age"
+  ]
+}

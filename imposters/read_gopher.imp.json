@@ -1,0 +1,39 @@
+[
+  {
+    "request": {
+      "method": "GET",
+      "endpoint": "/gophers/{v:[\\w]+}/new",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "params": {
+        "apiKey": "{v:[\\w]+}"
+      }
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\"error\": \"gopher could not be saved\"}"
+    }
+  },  {
+  "request": {
+    "method": "GET",
+    "endpoint": "/gophers/{v:[\\w]+}/new",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "params": {
+      "apiKey": "500"
+    }
+  },
+  "response": {
+    "status": 500,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"info\": \"gopher information be saved\"}"
+  }
+}
+  ]
